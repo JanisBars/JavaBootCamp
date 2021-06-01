@@ -1,34 +1,34 @@
-/**
- * 
- */
+///**
+// *
+// */
 package sef.module3.activity;
+//
+//
 
 
 
-
-/**
- * @author 
- *
- */
+// * @author
+// *
+// */
 public class Calculator {
-	
-		
+//
+//
 	public static void main(String[] args) {
 		Person p1 = new Person("Atif");
 		Person p2 = new Person("Gatis");
-		
+
 	int x = 10;
 	int y = 0;
-	
+
 	int[] nums = {1, 2, 3, 4};
-//	
-//	System.out.println("Addition - " + add(x,y));
-//	System.out.println("Subtraction - " + subtract(x,y)); // x = 10, y - 20 =  10 - (-20)
-//	System.out.println("Multiply - " + multiply(nums));
-	System.out.println("Divide - " + divide(x,y));
-	
-	if 
-	
+
+	System.out.println("Addition - " + add(x,y));
+	System.out.println("Subtraction - " + subtract(x,y)); // x = 10, y - 20 =  10 - (-20)
+	System.out.println("Multiply - " + multiply(nums));
+    System.out.println("Divide - " + divide(x,y));
+
+	if
+
 	}
 
 
@@ -38,7 +38,7 @@ public class Calculator {
 	}
 
 	private static int subtract(int x, int y) {
-		int diff = 0;
+	int diff = 0;
 		if (x > y) {
 			// complete the code
 			diff = x-y;
@@ -66,7 +66,7 @@ public class Calculator {
 			System.out.println("One of the number is 0, I can't do the divide operation");
 			divValue = 0;
 			return ;
-			// complete the code 
+			// complete the code
 		} else {
 			divValue = x/y;
 			// complete the code
@@ -74,6 +74,6 @@ public class Calculator {
 		return divValue;
 
 	}
-	
+
 }
 
