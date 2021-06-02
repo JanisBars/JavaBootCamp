@@ -121,6 +121,24 @@ public class MyCalculatorTest extends TestCase {
 				fail();
 			}
 		}
-	}
+
+    public void testGetCalculatorType() {
+    }
+
+    public void testSetCalculatorType() {
+    }
+
+    public void testAdd() {
+    }
+
+    public void testSubtract() {
+    }
+
+    public void testMultiply() {
+    }
+
+    public void testDivide() {
+    }
+}
 
 
