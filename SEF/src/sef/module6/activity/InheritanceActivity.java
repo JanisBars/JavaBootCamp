@@ -1,11 +1,16 @@
 package sef.module6.activity;
 
 
+import sef.module4.sample.Person;
 
 public class InheritanceActivity {
 
 	public static void main(String[] args) {
-		
+
+		Person dave = new Person("Sarah Johnson");
+		dave.displayPersonDetails();
+
+
 		// Create Person object p. Write code to and set name of Person as Sarah Johnson
 		// and age as 21
 		

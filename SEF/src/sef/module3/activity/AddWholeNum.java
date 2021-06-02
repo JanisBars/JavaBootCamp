@@ -13,7 +13,7 @@ total = total + i;
 
 
 
-		total = total + i;	}
+		total = total + i;}
 		System.out.println("Addition of Whole Numbers from 50 to 100 = " + total);
 
 
