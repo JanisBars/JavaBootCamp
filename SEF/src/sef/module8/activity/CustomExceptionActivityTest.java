@@ -23,14 +23,22 @@ for(int i=0;i<4;i++)
 {
 	
 //2 - Write code to check if parameter name contains a value which is found in validUsers array and change flag's value accordingly 
-
+if (name == validateUsers[i]{
+        flag =1;
+        break;
+}
 }
 //3 - check if flag is zero, throw CustomExceptionActivity Exception.
 //You may also have to declare this exception in the method call using throws.
+if (flag==0){
+    throw new ClassCastExceptionActivity();
 
+}
 
 //4 - else if flag is one, print a message "Welcome to Payroll program". 
-
+else if (flag==1){
+    System.out.println("Welcoe to payroll program");
+}
 }
 }
 
