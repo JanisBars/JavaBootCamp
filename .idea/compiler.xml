@@ -17,6 +17,7 @@
       <directory url="file://$PROJECT_DIR$/SEF/src/sef/module15" includeSubdirectories="true" />
       <directory url="file://$PROJECT_DIR$/SEF/src/sef/module17" includeSubdirectories="true" />
       <directory url="file://$PROJECT_DIR$/SEF/src/sef/module19" includeSubdirectories="true" />
+      <directory url="file://$PROJECT_DIR$/SEF/src/sef/module2" includeSubdirectories="false" />
     </excludeFromCompile>
     <bytecodeTargetLevel target="15" />
   </component>
