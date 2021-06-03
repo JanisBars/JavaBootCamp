@@ -6,6 +6,7 @@ package sef.module3.activity;
 //
 
 
+import sef.module4.sample.Person;
 
 // * @author
 // *
@@ -27,7 +28,7 @@ public class Calculator {
 	System.out.println("Multiply - " + multiply(nums));
     System.out.println("Divide - " + divide(x,y));
 
-	if
+
 
 	}
 
