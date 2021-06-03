@@ -4,36 +4,29 @@ import java.sql.Connection;
 import java.sql.DriverManager;
 import java.sql.SQLException;
 
-//The following program throws a checked exception. 
+//The following program throws a checked exception.
 public class SQLExceptionActivity {
 
 
 	public static void main(String[] args) {
 
-			String url = "jdbc:mysql://localhost/activity1"; 
-			String user = "root";
+		String url = "jdbc:mysql://localhost/activity1";
+		String user = "root";
+		String pass = "abcd1234";
 
-try{
-			Class.forName("com.mysql.jdbc.Driver")}
-catch(ClassNotFoundException sqlEx)
-					Connection cn = DriverManager.getConnection(url,user,pass)
-		System.out.println("Connection successfully established");
-			String pass = "abcd1234";
-			cn.close();
-			
-			//The following code would not compile unless it's put inside a try catch
-			//1 - put it in a try block and handle ClassNotFoundException
-			
-			
-			/*Class.forName("com.mysql.jdbc.Driver");
-			Connection cn = DriverManager.getConnection(url, user, pass);
-			System.out.println("Connection successfully established! \n");
-			
-			cn.close();
-			*/
-			//2 - You also need to catch SQLException for it to compile
-			
-	
+		//The following code would not compile unless it's put inside a try catch
+		//1 - put it in a try block and handle ClassNotFoundException
+
+
+		Class.forName("com.mysql.jdbc.Driver");
+		Connection cn = DriverManager.getConnection(url, user, pass);
+		System.out.println("Connection successfully established! \n");
+
+		cn.close();
+
+		//2 - You also need to catch SQLException for it to compile
+
+
 	}
 
 }

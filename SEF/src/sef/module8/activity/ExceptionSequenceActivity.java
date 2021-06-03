@@ -18,7 +18,7 @@ void divide(int num1,int num2)
 	/*catch(ArithmeticException a)*/
 	{
 		System.out.println("Division by zero is not allowed");
-		finally {
+		 {
 		System.out.println("This is finl block");
 	}
 	}
