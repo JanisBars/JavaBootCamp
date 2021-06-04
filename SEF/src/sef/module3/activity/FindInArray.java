@@ -15,6 +15,10 @@ public class FindInArray {
 	public static void main(String[] args) {
 
 		// Create an integer array
+
+				int[] nums;	        // declare an array of integers
+
+				nums = new int[3];	// create an array of integers
 		int size;
 		int temp;
 		int[] nums = {15, 300, 400, 20};
